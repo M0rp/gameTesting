@@ -254,24 +254,24 @@ function updateGameArea() {
         }
     }
 
-    topHit1.x = playerCharacter1.x;
-    topHit1.y = playerCharacter1.y - playerCharacter1.height/2;
-
-    rightHit1.x = playerCharacter1.x + playerCharacter1.width/2;
-    rightHit1.y = playerCharacter1.y;
-
-    bottomHit1.x = playerCharacter1.x;
-    bottomHit1.y = playerCharacter1.y + playerCharacter1.height/2;
-
-    leftHit1.x = playerCharacter1.x - playerCharacter1.width/2;
-    leftHit1.y = playerCharacter1.y;
-
-    topHit1.update();
-    rightHit1.update();
-    bottomHit1.update();
-    leftHit1.update();
-
     if(playerCharacter1Dead == false && playerCharacter1 != null) {
+        topHit1.x = playerCharacter1.x;
+        topHit1.y = playerCharacter1.y - playerCharacter1.height/2;
+
+        rightHit1.x = playerCharacter1.x + playerCharacter1.width/2;
+        rightHit1.y = playerCharacter1.y;
+
+        bottomHit1.x = playerCharacter1.x;
+        bottomHit1.y = playerCharacter1.y + playerCharacter1.height/2;
+
+        leftHit1.x = playerCharacter1.x - playerCharacter1.width/2;
+        leftHit1.y = playerCharacter1.y;
+
+        topHit1.update();
+        rightHit1.update();
+        bottomHit1.update();
+        leftHit1.update();
+        
         playerCharacter1.speed = 0;
         playerCharacter1.rotSpeed = 0;
 
@@ -284,24 +284,24 @@ function updateGameArea() {
         playerCharacter1.update();
     }
 
-    topHit2.x = playerCharacter2.x;
-    topHit2.y = playerCharacter2.y - playerCharacter2.height/2;
-
-    rightHit2.x = playerCharacter2.x + playerCharacter2.width/2;
-    rightHit2.y = playerCharacter2.y;
-
-    bottomHit2.x = playerCharacter2.x;
-    bottomHit2.y = playerCharacter2.y + playerCharacter2.height/2;
-
-    leftHit2.x = playerCharacter2.x - playerCharacter2.width/2;
-    leftHit2.y = playerCharacter2.y;
-
-    topHit2.update();
-    rightHit2.update();
-    bottomHit2.update();
-    leftHit2.update();
-
     if(playerCharacter2Dead == false && playerCharacter2 != null) {
+        topHit2.x = playerCharacter2.x;
+        topHit2.y = playerCharacter2.y - playerCharacter2.height/2;
+
+        rightHit2.x = playerCharacter2.x + playerCharacter2.width/2;
+        rightHit2.y = playerCharacter2.y;
+
+        bottomHit2.x = playerCharacter2.x;
+        bottomHit2.y = playerCharacter2.y + playerCharacter2.height/2;
+
+        leftHit2.x = playerCharacter2.x - playerCharacter2.width/2;
+        leftHit2.y = playerCharacter2.y;
+
+        topHit2.update();
+        rightHit2.update();
+        bottomHit2.update();
+        leftHit2.update();                
+
         playerCharacter2.speed = 0;
         playerCharacter2.rotSpeed = 0;
 
