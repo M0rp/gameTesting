@@ -31,13 +31,13 @@ div.game-container div.instruction {
 div.game-container div.instruction div.spacer {
     float: left;
     width: 100%;
-    height: 40%;
+    height: 35%;
 }
 
 div.game-container div.instruction div.controls {
     float: left;
     width: 100%;
-    height: 20%;
+    height: 30%;
 }
 
 ul {
